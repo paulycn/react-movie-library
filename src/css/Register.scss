@@ -1,0 +1,39 @@
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        h4 {
+            margin-bottom: 10px;
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            &:last-child{
+                gap: 19px;
+                display: flex;
+            }
+
+            input {
+                border-radius: 6px;
+                border: unset;
+                border: 1px solid #646cff;
+                padding: 5px;
+            }
+        }
+    }
+    textarea {
+        border-radius: 6px;
+                border: unset;
+                border: 1px solid #646cff;
+                width: 600px;
+    }
+}
